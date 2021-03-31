@@ -2,26 +2,15 @@ body{
     letter-spacing: 0.2em;
 }
 .top{
-    text-align: center;
+    text-align:center;
 }
-
+@media (min-width: 670px)
+{
 .profile-content{
     display: flex;
     width: 850px;
     margin: 0 auto;
 }
-
-
-img{
-    height: 200px;
-    width: 150px;
-}
-
-.main-work img{
-    height: 210px;
-    width: 270px;
-}
-
 .main-work p{
     text-align: center;
 }
@@ -36,6 +25,18 @@ img{
     margin: 0 auto;
 
 }
+}
+
+img{
+    height: 200px;
+    width: 150px;
+}
+
+.main-work img{
+    height: 210px;
+    width: 270px;
+}
+
 a:hover{
     opacity:0.5;
 }
